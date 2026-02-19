@@ -1,8 +1,6 @@
 # CNN-Real-Time-Handwritten-Digit-Recognition
 This project implements a deep learning-based Convolutional Neural Network (CNN) trained on the MNIST dataset for handwritten digit recognition. It extends the model to perform live digit detection through webcam input with real-time inference.
 
----
-
 ## 🚀 Project Overview
 
 This project demonstrates:
@@ -13,12 +11,6 @@ This project demonstrates:
 * Image preprocessing to match MNIST format (28x28 grayscale)
 * Live prediction with confidence scores
 
----
-
-### 📊 Final Accuracy: **99% on MNIST Test Dataset**
-
----
-
 ## 📸 Screenshots
 
 Add your screenshots inside the `screenshots/` folder and link them like this:
@@ -27,8 +19,6 @@ Add your screenshots inside the `screenshots/` folder and link them like this:
 ![Training Accuracy](screenshots/Screenshot1.png)
 ![Live Detection](screenshots/Screenshot2.png)
 ```
-
----
 
 ## 🎥 Live Detection
 
@@ -44,15 +34,11 @@ The live detection script:
 
 Run: python live_detection.py
 
----
-
 ## 🏋️ Model Training
 
 To train the model from scratch run : python model_training.py
 
 After training, the model will be saved as: mnist_model.keras
-
----
 
 ## 🧰 Requirements
 
@@ -66,8 +52,6 @@ Typical dependencies:
 
 (Exact versions inside `requirements.txt`)
 
----
-
 ## 🔍 How It Works
 
 1. CNN extracts spatial features from digit images
@@ -76,8 +60,6 @@ Typical dependencies:
 4. Dense layers perform classification
 5. Softmax outputs probabilities for digits (0–9)
 
----
-
 ## 🎯 Key Highlights
 
 ✅ 99% Test Accuracy
@@ -85,14 +67,3 @@ Typical dependencies:
 ✅ Mobile camera integration
 ✅ Lightweight & efficient architecture
 ✅ Clean modular structure
-
----
-
-## 💡 Future Improvements
-
-* Add bounding box detection for multiple digits
-* Improve robustness to noisy backgrounds
-* Deploy as a web app using Flask/Streamlit
-* Convert model to TensorFlow Lite for mobile deployment
-
----
