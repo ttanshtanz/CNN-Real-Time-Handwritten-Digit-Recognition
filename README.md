@@ -11,15 +11,6 @@ This project demonstrates:
 * Image preprocessing to match MNIST format (28x28 grayscale)
 * Live prediction with confidence scores
 
-## 📸 Screenshots
-
-Add your screenshots inside the `screenshots/` folder and link them like this:
-
-```markdown
-![Training Accuracy](screenshots/Screenshot1.png)
-![Live Detection](screenshots/Screenshot2.png)
-```
-
 ## 🎥 Live Detection
 
 The live detection script:
